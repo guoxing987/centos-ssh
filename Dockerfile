@@ -37,6 +37,7 @@ RUN rpm --rebuilddb \
 		iproute \
 		net-tools \
 		wget \
+		lrzsz \
 		yum-plugin-versionlock-1.1.31-50.el7 \
 	&& yum versionlock add \
 		openssh \
